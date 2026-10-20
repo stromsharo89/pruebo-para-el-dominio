@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f1c2a">
+    <meta name="description" content="Iglesia Evangélica Pentecostal de Jesucristo, Ricardo Palma. Cultos, ministerios, eventos y galería.">
+    <title>IEPJ - Iglesia Evangélica Pentecostal de Jesucristo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo-area">
+        <img src="img/logo iepj.png" alt="Logo IEPJ">
+        <div>
+            <h2>RICARDO PALMA</h2>
+            <span>Iglesia Evangélica Pentecostal</span>
+        </div>
+    </a>
+    <nav class="navbar" id="menuPrincipal">
+        <a href="index.html" class="activo" aria-current="page">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="ministerio.html">Ministerios</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="login.html" class="btn-login"><i class="fa-solid fa-user"></i> Ingresar</a>
+    </nav>
+    <button class="menu-btn" onclick="abrirMenu()" aria-label="Abrir menú" aria-controls="menuPrincipal">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+</header>
+
+<section class="hero">
+    <div class="hero-contenido">
+        <span class="etiqueta"><i class="fa-solid fa-cross"></i> Iglesia Evangélica Pentecostal de Jesucristo</span>
+        <h1>Un lugar para <span>crecer en Cristo</span></h1>
+        <p>Somos una familia de fe que busca conocer, amar y compartir el mensaje de Jesucristo. Hay un lugar para ti en esta casa.</p>
+        <div class="hero-botones">
+            <a href="nosotros.html" class="btn-principal">Conócenos</a>
+            <a href="#visitanos" class="btn-secundario">Visítanos</a>
+        </div>
+    </div>
+    <a href="#bienvenida" class="hero-flecha" aria-label="Bajar"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<div class="franja">
+    <span><i class="fa-solid fa-clock"></i> Te esperamos: martes, jueves y domingos · 6:30 PM</span>
+</div>
+
+<section class="bienvenida" id="bienvenida">
+    <div class="imagen-bienvenida">
+        <img src="img/iglesia.jfif" alt="Nuestra iglesia" onerror="this.style.display='none'">
+        <div class="tarjeta-versiculo">
+            <i class="fa-solid fa-book-bible"></i>
+            <p>"Porque donde están dos o tres congregados en mi nombre, allí estoy yo en medio de ellos."</p>
+            <strong>Mateo 18:20</strong>
+        </div>
+    </div>
+    <div class="texto-bienvenida">
+        <span class="subtitulo">Nuestra familia</span>
+        <h2>Bienvenidos a la casa de Dios</h2>
+        <div class="adorno adorno-izq"><i class="fa-solid fa-cross"></i></div>
+        <p>Somos una comunidad cristiana dedicada a compartir el amor de Dios y fortalecer la fe de cada persona.</p>
+        <p>Queremos que cada familia encuentre aquí un espacio para aprender de la Palabra de Dios, servir y crecer espiritualmente.</p>
+        <a href="nosotros.html" class="btn-principal">Conoce nuestra historia</a>
+    </div>
+</section>
+
+<section class="servicios">
+    <div class="titulo-seccion">
+        <span>Adoración y comunidad</span>
+        <h2>Nuestros servicios</h2>
+        <div class="adorno"><i class="fa-solid fa-cross"></i></div>
+        <p>Te esperamos para compartir juntos momentos de fe y comunión.</p>
+    </div>
+    <div class="servicios-grid">
+        <div class="servicio-card">
+            <div class="icono"><i class="fa-solid fa-church"></i></div>
+            <h3>Culto general</h3>
+            <p>Un tiempo especial para adorar, escuchar la Palabra y compartir.</p>
+            <dl class="horario">
+                <div><dt>Martes</dt><dd>6:30 PM a 8:10 PM</dd></div>
+                <div><dt>Jueves</dt><dd>6:30 PM a 8:10 PM</dd></div>
+                <div><dt>Domingos</dt><dd>6:30 PM a 8:10 PM</dd></div>
+            </dl>
+        </div>
+        <div class="servicio-card">
+            <div class="icono"><i class="fa-solid fa-child"></i></div>
+            <h3>Escuela dominical</h3>
+            <p>Enseñanza bíblica para nuestros niños y jóvenes.</p>
+            <dl class="horario">
+                <div><dt>Domingos</dt><dd>10:30 AM a 1:00 PM</dd></div>
+            </dl>
+        </div>
+        <div class="servicio-card">
+            <div class="icono"><i class="fa-solid fa-hands-praying"></i></div>
+            <h3>Oración</h3>
+            <p>Nos reunimos para buscar a Dios y orar unos por otros.</p>
+            <dl class="horario">
+                <div><dt>Todos los días</dt><dd></dd></div>
+            </dl>
+        </div>
+        <div class="servicio-card">
+            <div class="icono"><i class="fa-solid fa-users"></i></div>
+            <h3>Culto de jóvenes</h3>
+            <p>Un espacio para aprender, compartir y servir a Dios.</p>
+            <dl class="horario">
+                <div><dt>Sábados</dt><dd>6:30 PM a 8:10 PM</dd></div>
+            </dl>
+        </div>
+    </div>
+</section>
+
+<section class="ministerios" id="ministerios">
+    <div class="titulo-seccion">
+        <span>Nuestra comunidad</span>
+        <h2>Ministerios</h2>
+        <div class="adorno"><i class="fa-solid fa-cross"></i></div>
+        <p>Hay un lugar para cada edad y cada familia.</p>
+    </div>
+    <div class="ministerios-grid">
+        <div class="ministerio-card">
+            <div class="ministerio-icon"><i class="fa-solid fa-child-reaching"></i></div>
+            <h3>Niños</h3>
+            <p>Enseñamos la Palabra de Dios de una manera especial para los pequeños.</p>
+        </div>
+        <div class="ministerio-card">
+            <div class="ministerio-icon"><i class="fa-solid fa-person"></i></div>
+            <h3>Jóvenes</h3>
+            <p>Formamos jóvenes comprometidos con Cristo y con su comunidad.</p>
+        </div>
+        <div class="ministerio-card">
+            <div class="ministerio-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Familias</h3>
+            <p>Fortalecemos los hogares mediante la fe y el amor de Dios.</p>
+        </div>
+        <div class="ministerio-card">
+            <div class="ministerio-icon"><i class="fa-solid fa-heart"></i></div>
+            <h3>Evangelismo</h3>
+            <p>Compartimos el mensaje de esperanza con nuestra comunidad.</p>
+        </div>
+    </div>
+    <div class="seccion-boton">
+        <a href="ministerio.html" class="btn-principal">Ver todos los ministerios</a>
+    </div>
+</section>
+
+<section class="versiculo">
+    <div class="versiculo-contenido">
+        <i class="fa-solid fa-quote-left"></i>
+        <h2>"Todo lo puedo en Cristo que me fortalece."</h2>
+        <p>Filipenses 4:13</p>
+        <div class="adorno"><i class="fa-solid fa-cross"></i></div>
+    </div>
+</section>
+
+<section class="contacto" id="visitanos">
+    <div class="contacto-contenido">
+        <div>
+            <span class="subtitulo">Visítanos</span>
+            <h2>Será una alegría recibirte</h2>
+            <div class="adorno adorno-izq"><i class="fa-solid fa-cross"></i></div>
+            <p>Te invitamos a acompañarnos en cualquiera de nuestros cultos. Ven con tu familia y comparte con nosotros un tiempo de adoración y de la Palabra de Dios.</p>
+        </div>
+        <div class="contacto-datos">
+            <div><i class="fa-solid fa-location-dot"></i><span><strong>Dirección</strong><br>Ricardo Palma #1108</span></div>
+            <div><i class="fa-solid fa-church"></i><span><strong>Cultos generales</strong><br>Martes, jueves y domingos · 6:30 PM</span></div>
+            <div><i class="fa-solid fa-users"></i><span><strong>Culto de jóvenes</strong><br>Sábados · 6:30 PM</span></div>
+            <div><i class="fa-solid fa-phone"></i><span><strong>Teléfono</strong><br>+51 964 402 267</span></div>
+            <div><i class="fa-solid fa-envelope"></i><span><strong>Correo</strong><br>TemploElim@gmail.com</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="llamada">
+    <div>
+        <h2>Dios tiene un lugar para ti</h2>
+        <p>Conoce nuestros eventos y los momentos que vivimos como familia.</p>
+        <a href="eventos.html" class="btn-blanco">Ver eventos</a>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-contenido">
+        <div class="footer-marca">
+            <h3>Iglesia Evangélica Pentecostal de Jesucristo</h3>
+            <p>Una familia de fe que busca conocer, amar y compartir el mensaje de Jesucristo.</p>
+        </div>
+        <div class="footer-datos footer-enlaces">
+            <h3>Explorar</h3>
+            <p><a href="nosotros.html">Nosotros</a></p>
+            <p><a href="ministerio.html">Ministerios</a></p>
+            <p><a href="eventos.html">Eventos</a></p>
+            <p><a href="galeria.html">Galería</a></p>
+        </div>
+        <div class="footer-redes">
+            <h3>Síguenos</h3>
+            <div>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© 2026 IEPJ - Todos los derechos reservados.</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
